@@ -62,7 +62,7 @@ class _LoginPageState extends State<LoginPage> {
                                         color: Colors.blue.shade100)),
                                 focusedBorder: UnderlineInputBorder(
                                     borderSide: BorderSide(color: Colors.blue)),
-                                prefixIcon: Icon(Icons.email)),
+                                prefixIcon: Icon(Icons.email,color: Colors.blue,)),
                           ),
                           SizedBox(
                             height: 20,
@@ -81,7 +81,7 @@ class _LoginPageState extends State<LoginPage> {
                                       BorderSide(color: Colors.blue.shade100)),
                               focusedBorder: UnderlineInputBorder(
                                   borderSide: BorderSide(color: Colors.blue)),
-                              prefixIcon: Icon(Icons.lock),
+                              prefixIcon: Icon(Icons.lock,color: Colors.blue,),
                               suffixIcon: IconButton(
                                 onPressed: () {
                                   setState(() {
